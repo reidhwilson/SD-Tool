@@ -1,0 +1,41 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Diego Real Estate Comparison Tool</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header class="header">
+        <h1>San Diego Real Estate Comparison Tool</h1>
+    </header>
+    <section class="intro">
+        <h2>Explore San Diego's Neighborhoods - Find Your Perfect Home</h2>
+        <p>Instantly compare neighborhoods in San Diego County with our easy-to-use Real Estate Comparison Tool. Get up-to-date statistics and find the best fit for your lifestyle.</p>
+    </section>
+    <section class="features">
+        <h3>Easily find:</h3>
+        <ul>
+            <li>Median Rent Price</li>
+            <li>Median Home Price</li>
+            <li>Median Price Per Square Foot</li>
+            <li>Public Transit Score</li>
+            <li>School Ratings</li>
+        </ul>
+    </section>
+    <section class="neighborhood-select">
+        <label for="neighborhood">Select a Neighborhood:</label>
+        <select id="neighborhood">
+            <option value="">Select</option>
+            <!-- Additional options here -->
+        </select>
+    </section>
+    <footer>
+        <p>See next page for query results!</p>
+    </footer>
+</body>
+</html>
